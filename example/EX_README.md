@@ -22,9 +22,9 @@ Predicted Attribute: Class of Iris Plant
 
 ## Getting Started
 
-<img src="e_getting_started/plots/sepal_length_v_petal_length.png" alt="X vs Y – Iris Dataset" width="300">
-<img src="e_getting_started/plots/sepal_width_v_petal_length.png" alt="X vs Y – Iris Dataset" width="300">
-<img src="e_getting_started/plots/sepal_width_v_petal_width.png" alt="X vs Y – Iris Dataset" width="300">
+<img src="e_getting_started/plots/sepal length_v_petal length.png" alt="X vs Y – Iris Dataset" width="300">
+<img src="e_getting_started/plots/sepal width_v_petal length.png" alt="X vs Y – Iris Dataset" width="300">
+<img src="e_getting_started/plots/sepal width_v_petal width.png" alt="X vs Y – Iris Dataset" width="300">
 
 
 ## Human Algorithm
