@@ -26,6 +26,6 @@ def load_iris_data():
     df[target_name] = iris.data.targets
 
     # I printed here to confirm that I was importing data correctly.
-    # print(df.head())
+    print(df.head())
 
     return df, target_name
