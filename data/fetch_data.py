@@ -7,8 +7,7 @@ wine_quality = fetch_ucirepo(id=186)
 # data (as pandas dataframes) 
 X = wine_quality.data.features 
 y = wine_quality.data.targets 
-z = wine_quality.data.other
 
-X.to_csv("data/Wine Features")
-y.to_csv("data/Wine Target")
-z.to_csv("data/Wine Other")
+
+X.to_csv("data/Wine_Feature.csv")
+y.to_csv("data/Wine_Target.csv")
