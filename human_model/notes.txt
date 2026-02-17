@@ -1,0 +1,11 @@
+fixed acidity - lower for white
+volatile acidity - lower for white
+citric acid - no effect
+residual suger - lower for red - major overlap
+chlorides - lower for white
+total sulpher dioxide - no effect
+free sulpher dioxide - no effect
+density - no effect
+pH - no effect
+sulphates - lower for white - major overlap
+alcohol - no effect

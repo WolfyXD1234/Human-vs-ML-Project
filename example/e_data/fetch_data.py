@@ -22,8 +22,10 @@ def load_iris_data():
     feature_names = iris.variables[iris.variables['role'] == 'Feature']['name'].tolist()
     target_name = iris.variables[iris.variables['role'] == 'Target']['name'].values[0]
 
-    df = pd.DataFrame(iris.data.features, columns=feature_names)
-    df[target_name] = iris.data.targets
+    # df = pd.DataFrame(iris.data.features, columns=feature_names)
+    # df[target_name] = iris.data.targets
+
+    df = iris.data.original
 
     # I printed here to confirm that I was importing data correctly.
     print(df.head())

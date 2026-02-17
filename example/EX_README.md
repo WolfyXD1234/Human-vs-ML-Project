@@ -52,8 +52,8 @@ From the summary tables and visualizations, it appeared that sepal width could i
 
 Accuracy: 86.67%
 
-| Actual \\ Predicted | Iris-setosa | Iris-versicolor | Iris-virginica |
-|--------------------|-------------|------------------|----------------|
+| Actual \\ Predicted | Iris-setosa | Iris-versicolor  | Iris-virginica |
+|---------------------|-------------|------------------|----------------|
 | **Iris-setosa**     | 14          | 1                | 0              |
 | **Iris-versicolor** | 0           | 12               | 3              |
 | **Iris-virginica**  | 0           | 2                | 13             |
