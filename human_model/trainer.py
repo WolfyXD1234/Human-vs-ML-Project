@@ -1,5 +1,5 @@
 import pandas as pd
-from human_classifier import human_classify
+from human_model.human_classifier import human_classify
 df = pd.read_csv("data/Wine.csv")
 
 df['human_prediction'] = df.apply(human_classify, axis = 1)
