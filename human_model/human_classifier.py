@@ -13,6 +13,9 @@ def human_classify(wine_obj):
         return "white"
     elif wine_obj["total_sulfur_dioxide"] > 160:
         return "white"
+    elif wine_obj["citric_acid"] > 0.75:
+        return "white"
+
     elif wine_obj["residual_sugar"] < 10:
         return "red"
 

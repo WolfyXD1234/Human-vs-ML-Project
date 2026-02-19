@@ -6,7 +6,7 @@ from example.e_human_algorithm.human_classifier import human_classify
 from example.e_data.fetch_data import load_iris_data
 # from human_classifier import human_classify
 # from example/e_data/fetch_data.py import load_iris_data
-from scikit_learn.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 
 # This section of code separates the whole data-set into training and testing data.
 df, target_name = load_iris_data()
