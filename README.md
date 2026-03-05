@@ -18,22 +18,20 @@ You may work alone or with a partner. You may choose to work with the provided P
 ---
 
 **Team Members:**  
-- Name 1  
+- Name 1 Liam Wheeler
 - Name 2 (if applicable)  
 
 **Dataset Used:**  
-(e.g. Penguins, Iris, Titanic, etc.)
+Wine
 
 **Source:**  
-(UCI / Kaggle / Provided dataset)
+UCI
 
 **Target Variable (What we are predicting):**  
-(e.g. species, survival, diagnosis)
+Color
 
 **Features Used:**  
-- Feature 1  
-- Feature 2  
-- Feature 3
+All
 
 **[Video Review](https://)**
 
@@ -52,13 +50,12 @@ From the summary tables and visualizations, it appeared that ___ could influence
 
 ### Confusion Matrix
 
-Accuracy: ?
+Accuracy: 82.48%
 
-| Actual \ Predicted | Class 1 | Class 2 | Class 3 |
-|-------------------|---------|---------|---------|
-| **Class 1**       |         |         |         |
-| **Class 2**       |         |         |         |
-| **Class 3**       |         |         |         |
+| Actual \ Predicted |   red   | unknown |  white  |
+|--------------------|---------|---------|---------|
+| red                | 1558    | 10      | 31      |
+| white              | 815     | 282     | 3801    |
 
 One example where our algorithm worked well is when the inputs were ___, leading to a correct prediction of ___ because ___.
 
@@ -70,21 +67,20 @@ These examples of success and failure highlight patterns in the data or limitati
 
 ## Machine Learning Model
 
-We chose a value of k = ___ after comparing model performance across different values of k and observing that ___.
+We chose a value of k = 6 after comparing model performance across different values of k and observing that ___.
 
 When analyzing the outputs and metrics, we noticed that changing k affected ___, which influenced our final choice.
 
-Based on the results shown in the tables or visualizations, k = ___ best matched our goals for model performance because ___.
+Based on the results shown in the tables or visualizations, k = 6 best matched our goals for model performance because ___.
 
 ### Confusion Matrix
 
-Accuracy: ?
+Accuracy: 100.00%
 
-| Actual \ Predicted | Class 1 | Class 2 | Class 3 |
-|-------------------|---------|---------|---------|
-| **Class 1**       |         |         |         |
-| **Class 2**       |         |         |         |
-| **Class 3**       |         |         |         |
+| Actual \ Predicted | Red     | White   |
+|--------------------|---------|---------|
+| Red                | 480     | 0       |
+| White              | 0       | 1470    |
 
 The table/visualization shows a clear pattern where the model predicts ___ when ___, indicating a strong relationship between these features.
 
